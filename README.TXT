@@ -20,6 +20,7 @@ PART I
 3. If an object is added or deleted or if the relationship between objects are changed.
 4. private Instructor tutor;
 5. Hours.increment();.
+
 6.minutes.increment(); ...
 
 8. For the first one, I wrote display.setValue(2); and the value changed to 2. For the second one, I wrote display.setValue(10); and the value remained to 2. That's because the code doesn't allow the value inserted to be higher than the rollOverLimit.
@@ -27,6 +28,18 @@ PART I
 9.The value will be 0. ...
 
 10.Error: non-static method getValue() cannot be referenced from a static context.
+11.Error: '.class' expected. There shouldn't be an "int" before the value. It should be display.setValue(5);.
 
+13. ...
 
+14. If the setValue value surpasses the rollOverLimit(e.g. limit is 10 and setValue is 11), when getValue is called, it will return 11(usually, it's supposed to go back to 0).
+15. "!false" and "(34 != 33) && ! false".
+
+16. ...
+
+17. ...
+
+18. The returned value is 0.
+19. There is no difference.
+20. 12cat and cat12. I was right for the first one, but the second one was cat39. I'm guessing that any numbers after a string don't get added together, but I'm not sure why. ...
 
