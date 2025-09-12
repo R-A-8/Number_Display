@@ -41,5 +41,5 @@ PART I
 
 18. The returned value is 0.
 19. There is no difference.
-20. 12cat and cat12. I was right for the first one, but the second one was cat39. I'm guessing that any numbers after a string don't get added together, but I'm not sure why. ...
+20. 12cat and cat12. I was right for the first one, but the second one was cat39. I'm guessing that any numbers after a string don't get added together.
 
