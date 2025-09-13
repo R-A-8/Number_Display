@@ -21,11 +21,11 @@ PART I
 4. private Instructor tutor;
 5. Hours.increment();.
 
-6.minutes.increment(); ...
+6.Verify if the value has reached the limit yet.
 
 8. For the first one, I wrote display.setValue(2); and the value changed to 2. For the second one, I wrote display.setValue(10); and the value remained to 2. That's because the code doesn't allow the value inserted to be higher than the rollOverLimit.
 
-9.The value will be 0. ...
+9.The value will be 0. I was right.
 
 10.Error: non-static method getValue() cannot be referenced from a static context.
 11.Error: '.class' expected. There shouldn't be an "int" before the value. It should be display.setValue(5);.
